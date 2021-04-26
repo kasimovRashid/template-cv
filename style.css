@@ -1,3 +1,29 @@
+:root {
+  --titlesFont: 'Montserrat', sans-serif;
+}
+html, body {
+  height: 100%;
+}
 body {
+  font-family: var(--titlesFont);
+}
+.wrapper {
+  min-height: 100%;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  font-style: normal;
+
   
 }
