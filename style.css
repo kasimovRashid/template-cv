@@ -1,11 +1,30 @@
 :root {
   --titlesFont: 'Montserrat', sans-serif;
+  --grey: #DBDBDB;
 }
 html, body {
   height: 100%;
 }
 body {
   font-family: var(--titlesFont);
+  font-size: 18px;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+img {
+  display: block;
+  min-width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .wrapper {
   min-height: 100%;
@@ -14,16 +33,113 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+/* Шапка */
 .container__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid var(--grey);
+  margin-bottom: 60px;
+}
+.download__link {
+  font-size: 21px;
+  margin: 61px 0 45px 0;
+}
+.download__link:hover {
+  text-decoration: underline;
+}
+.username {
+  font-size: 36px;
+  margin: 52px 0 36px 0;
 }
 .contacts {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
   font-style: normal;
-
+}
+.contacts__phone {
+  font-size: 21px;
+  font-weight: bold;
+}
+.contacts__mail {
+  font-size: 18px;
+}
+/* Первая секция */
+.about {
+  display: flex;
+  margin-bottom: 50px;
+}
+.about__left {
+  margin-right: 45px;
+}
+.avatar {
+  border-radius: 30px;
+  overflow: hidden;
+  width: 500px;
+  height: 554px;
+}
+.avatar__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.title {
+  font-size: 36px;
+}
+.title__list {
+  margin-bottom: 37px;
+}
+.tech__sub-list {
+  margin-bottom: 13px;
   
+
+}
+.subtitle {
+  font-size: 24px;
+}
+.subtitle__list {
+  margin-bottom: 6px;
+}
+.tech__sub-item {
+  font-size: 16px;
+  position: relative;
+  padding-left: 16px;
+
+}
+.tech__sub-item:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: black;
+  margin-right: 5px;
+}
+/* Вторая секция */
+.desc {
+  border-bottom: 1px solid var(--grey);
+}
+.desc__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.desc__item {
+  width: calc(100%/2 - (34px/2));
+  margin-bottom: 50px;
+}
+.desc__text {
+  font-size: 18px;
+}
+.title__desc {
+  margin-bottom: 23px;
+}
+/* Footer */
+.footer {
+  height: 122px;
+  border: 1px solid black;
 }
