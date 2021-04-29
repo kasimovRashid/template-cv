@@ -38,19 +38,28 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--grey);
+  border-bottom: 3px solid var(--grey);
   margin-bottom: 60px;
+  padding-bottom: 28px;
+}
+.download__wrapper {
+  padding-top: 59px;
+
 }
 .download__link {
+  font-size: 29px;
+}
+.download__title {
   font-size: 21px;
-  margin: 61px 0 45px 0;
+  margin-left: 2px;
 }
 .download__link:hover {
   text-decoration: underline;
 }
 .username {
   font-size: 36px;
-  margin: 52px 0 36px 0;
+
+  padding-top: 58px;
 }
 .contacts {
   display: flex;
@@ -61,6 +70,7 @@ ul {
 .contacts__phone {
   font-size: 21px;
   font-weight: bold;
+  padding-top: 53px;
 }
 .contacts__mail {
   font-size: 18px;
@@ -88,10 +98,12 @@ ul {
   font-size: 36px;
 }
 .title__list {
-  margin-bottom: 37px;
+  /* margin-bottom: 37px; */
+  padding-top: 5px;
+  
 }
 .tech__sub-list {
-  margin-bottom: 13px;
+  /* margin-bottom: 13px; */
   
 
 }
@@ -99,7 +111,8 @@ ul {
   font-size: 24px;
 }
 .subtitle__list {
-  margin-bottom: 6px;
+  /* margin-bottom: 6px; */
+  padding-top: 37px;
 }
 .tech__sub-item {
   font-size: 16px;
@@ -139,7 +152,29 @@ ul {
   margin-bottom: 23px;
 }
 /* Footer */
-.footer {
+.container__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 122px;
-  border: 1px solid black;
+}
+
+.icons__list {
+  display: flex;
+}
+.icons__item {
+  margin-right: 10px;
+}
+.icons__link {
+  
+  background: black;
+  color: white;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons__link:hover {
+  opacity: 0.8;
 }
