@@ -21,7 +21,7 @@ img {
   display: block;
   min-width: 100%;
 }
-ul {
+ul, li {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -30,7 +30,8 @@ ul {
   min-height: 100%;
 }
 .container {
-  width: 1200px;
+  max-width: 1200px;
+  width: 95%;
   margin: 0 auto;
 }
 /* Шапка */
@@ -47,15 +48,20 @@ ul {
 
 }
 .download__link {
-  font-size: 29px;
+  font-size: 26px;
+  padding-left: 3px;
 }
 .download__title {
   font-size: 21px;
   margin-left: 2px;
 }
-.download__link:hover {
+.download__link:hover{
+  text-decoration: none;
+}
+.download__link:hover .download__title:hover {
   text-decoration: underline;
 }
+ 
 .username {
   font-size: 36px;
 
@@ -70,7 +76,8 @@ ul {
 .contacts__phone {
   font-size: 21px;
   font-weight: bold;
-  padding-top: 53px;
+  padding-top: 54px;
+  margin-bottom: -6px
 }
 .contacts__mail {
   font-size: 18px;
@@ -99,7 +106,7 @@ ul {
 }
 .title__list {
   /* margin-bottom: 37px; */
-  padding-top: 5px;
+  padding-top: 9px;
   
 }
 .tech__sub-list {
@@ -112,16 +119,25 @@ ul {
 }
 .subtitle__list {
   /* margin-bottom: 6px; */
-  padding-top: 37px;
+  padding-top: 35px;
+}
+.tech__list {
+  /* padding-top: 6px; */
+  padding-top: 2px;
+}
+.tech__sub-list {
+  /* background: red; */
+  margin-top: 4px;
 }
 .tech__sub-item {
   font-size: 16px;
   position: relative;
   padding-left: 16px;
+  
 
 }
 .tech__sub-item:before {
-  content: "";
+  content: "";                                           
   position: absolute;
   top: 10px;
   left: 4px;
@@ -135,6 +151,7 @@ ul {
 /* Вторая секция */
 .desc {
   border-bottom: 1px solid var(--grey);
+  padding-bottom: 7px;
 }
 .desc__list {
   display: flex;
@@ -149,22 +166,23 @@ ul {
   font-size: 18px;
 }
 .title__desc {
-  margin-bottom: 23px;
+  margin-bottom: -3px;
 }
 /* Footer */
 .container__footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 122px;
+  height: 110px;
 }
 
 .icons__list {
   display: flex;
 }
 .icons__item {
-  margin-right: 10px;
+  margin-left: 10px;
 }
+
 .icons__link {
   
   background: black;

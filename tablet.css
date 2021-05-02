@@ -1,0 +1,63 @@
+
+.header {
+  margin-top: 34px;
+}
+.container__header {
+  margin-bottom: 22px;
+}
+.download__wrapper {
+  padding: 0;
+}
+.download__title {
+  font-size: 18px;
+}
+
+.username {
+  font-size: 30px;  
+  padding: 0;
+}
+.contacts__phone {
+  padding: 0;
+}
+
+.avatar {
+  width: 227px;
+  height: 252px;
+}
+.about {
+  margin: 0;
+
+}
+.about__left{
+  margin-right: 23px;
+}
+
+.title__list {
+  font-size: 30px;
+  padding-top: 0px;
+}
+.subtitle__list {
+  padding-top: 17px;
+
+}
+.tech__sub-list {
+  margin-top: 16px;
+}
+.desc__item {
+  width: 100%;
+  margin: 0;
+}
+.desc__list, .desc__list * {
+  margin: 0;
+  padding: 0;
+}
+.desc__list {
+  margin-top: 42px;
+}
+.title__desc {
+  margin-bottom: 19px;
+}
+.desc__text {
+  margin-bottom: 38px;
+}
+
