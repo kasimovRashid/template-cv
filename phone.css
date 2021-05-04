@@ -67,6 +67,10 @@
   padding: 0;
   line-height: 20px;
 }
+.desc {
+  margin-bottom: 22px;
+  margin-right: 1px;
+}
 .title__desc {
   margin-top: 8px;
   margin-bottom: 11px;
@@ -75,9 +79,24 @@
   font-size: 12px;
   margin-bottom: 21px;
 }
+.desc__list {
+  margin-bottom: 4px;
+}
 .download__title {
   font-size: 14px;
 }
+
 .container__footer {
   flex-direction: column-reverse;
+  height: 85px;
+}
+.download__link {
+  padding-left: 0;
+  padding-top: 3px;
+}
+.icons {
+  font-size: 24px;
+}
+.icons__list {
+  margin-right: 10px;
 }
